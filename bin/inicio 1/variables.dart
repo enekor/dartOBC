@@ -1,7 +1,8 @@
 void main(List<String> args) {
+  late var _masTarde;
   var nombre = 'Eneko';
   var edad = 21;
-  print('Mi nombre es '+nombre+' y tengo '+edad.toString()+' anios');
+  print('Mi nombre es ' + nombre + ' y tengo ' + edad.toString() + ' anios');
 
   int numero = 45;
   double decimal = 34.7;
@@ -9,17 +10,13 @@ void main(List<String> args) {
   final noCambiaValor = 56;
   const constante = 'hola';
 
-  var mapa = {
-    'nombre':'Eneko',
-    'edad':12
-  };
+  var mapa = {'nombre': 'Eneko', 'edad': 12};
 
   print(mapa['nombre']);
 
-  var lista = ['hola',23,'adios'];
+  var lista = ['hola', 23, 'adios'];
 
   print(lista[1]);
-
 }
 //comentario singleline
 /*
